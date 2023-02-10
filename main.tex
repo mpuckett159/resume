@@ -1,0 +1,207 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume-openfont} % Use US Letter paper, change to a4paper for A4
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+
+%\namesection{Thomas}{Wells}
+\namesection{Marly}{Puckett}
+{
+%\urlstyle{same}\url{https://github.com/mpuckett159} \\ % Your website, LinkedIn profile or other web address
+%US citizen \\
+%\href{mailto:thomas.wells@protonmail.ch}{thomas.wells@protonmail.ch} | 929.256.2382
+\href{mailto:mpuckett259@gmail.com}{mpuckett259@gmail.com} | 206.889.3135
+
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION SECTION
+%----------------------------------------------------------------------------------------
+\section{Introduction}
+\begin{flushleft}
+I am a subject matter expert in infrastructure automation who consults with companies looking to automate their datacenter processes. I am passionate about open source development and improving user experiences, be they developers, or end users.
+\end{flushleft}
+\vspace{-10pt}
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.28\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education}
+\subsection{University of Houston}
+
+\descript{BS Mathematics}
+\location{2014}
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links}
+
+Github:// \href{https://github.com/mpuckett159}{\bf mpuckett159 } \\
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Most Proficient:}
+ Python \textbullet{} Go \textbullet{} JavaScript \\
+\location{Proficient:}
+ SQL \\
+\location{Familiar:}
+TypeScript \textbullet{} Rust \textbullet{} \LaTeX \\
+\location {Testing:}
+Inspec \textbullet{} Pytest \textbullet{} Go testing \\
+\location {Frameworks:}
+Flask \textbullet{} Gorilla \\
+\location{Infrastructure}
+AWS \textbullet{} Docker \textbullet{} Kubernetes \\
+DigitalOcean \textbullet{} Terraform \\
+Ansible \\
+
+\sectionspace
+\vspace{-10pt} % Tighten up the side columns a tad
+
+%------------------------------------------------
+% Certifications
+%------------------------------------------------
+
+\section{Certifications}
+\subsection{\RaggedRight{Certified Kubernetes Administrator}}
+ November 9th, 2021 \\
+ 
+\sectionspace
+
+\subsection{Terraform Associate}
+October 1st, 2021
+
+\sectionspace % Some whitespace after the section
+\vspace{-10pt} % Tighten up the side columns a tad
+
+%------------------------------------------------
+% Open Source Work
+%------------------------------------------------
+
+\section{Open Source}
+\subsection{Kubernetes}
+SIG-CLI reviewer. I work with a team to help ingest bug reports, implement new features and bug fixes, review submitted features and bug fixes, and ensure testing coverage. I am currently working on implementing KEP-3104, which is a bashrc like config file to enable more flexible configuration. I am also working on improvements to the jsonpath functionality. \\
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.70\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Lyell Immunopharma}\\
+\descript{Software Engineer}
+
+\location{March 2022 - Present | Seattle, WA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Implemented an automated system for management of Amazon Workspaces to streamline deployments, reducing Workspace deployment times from months to minutes.
+\item Improved stability of our CI/CD pipelines, allowing developers more autonomy to develop their features using our development environments, enabling them to deliver products and features faster.
+\item Provide support to developers who utilized the development environments and CI/CD pipelines.
+\item Expanded our testing framework and code coverage using go-task, inspec, and pytest, including implementing proper unit testing for our terraform code.
+\end{tightitemize}
+
+\sectionspace
+
+\runsubsection{AHEAD \normalfont\small (Kovarus pre-acquisition)} \\
+\descript{Automation Engineer | Senior Technical Consultant}
+
+\location{April 2018 - March 2022 | Seattle, WA}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Worked closely with clients to design and implement infrastructure automation systems to solve business use cases.
+\item Provided environment architecture, defining user stories, developing orchestration workflows, defining development best practices, building CI/CD pipelines and defining code promotion strategies using a variety of languages and tools.
+\item Designed detailed documentation and knowledge transfer sessions at the conclusion of each project.
+\item Helped develop reusable assets and code for the delivery team to improve our delivery velocity and increase margins on sales deals.
+\item Assisted other delivery resources with questions and projects, as well as mentored junior resources to improve their careers and foster our delivery team's overall competency.
+\item Maintained technical certifications required for partnerships with vendors.
+\item Maintained a working knowledge of the broader ecosystem of tools used by our customers, and learned new tools to be able to provide expertise to them.
+
+\end{tightitemize}
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Verizon Enterprise Solutions}\\
+\descript{Assigned Client Engineer}
+
+\location{July 2016 - April 2018 | Houston, TX}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Helped spearhead the modernization of a legacy environment using a cloud framework to enable significant improvements in automation and self service provisioning for a \$3B/yr e-commerce website. This reduced environment deployment times from 4 months to 3.5 hours, dramatically increasing the velocity that developers could ship features at.
+\item Maintained on going support of the environment, developing new features, improving existing features, and implementing bug fixes. This included the hardware, the hypervisors, the automation and orchestration engines, the workflows, the virtual machines, the operating systems, the software defined firewalls and routers, and the load balancers.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
